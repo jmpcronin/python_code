@@ -34,9 +34,9 @@ nolight = [
 while True:
     print(sense.humidity)
     if sense.humidity > start_humidity + 10:
-        sense.set_pixels(happy)
+        sense.set_pixels(nolight)
     elif sense.humidity > start_humidity + 5:
-        sense.set_pixels(normal)
+        sense.set_pixels(nolight)
     else:
         sense.set_pixels(light)
     sleep(1)
