@@ -16,21 +16,22 @@ light = [
     b,o,o,o,o,o,o,b,
     o,o,r,o,o,r,o,o,
     o,o,o,o,o,o,o,o,
-    w,o,o,r,r,o,o,w,
-    w,w,o,o,o,o,w,w,
-    w,w,w,o,o,w,w,w,
+    b,o,o,r,r,o,o,b,
+    b,b,o,o,o,o,b,b,
+    b,b,o,o,o,o,b,b,
 ]
 
 nolight = [
-    w,w,w,w,g,w,w,w,
-    w,w,o,g,o,o,w,w,
-    w,o,o,o,o,o,o,w,
+    b,b,b,b,g,b,b,b,
+    b,b,o,g,o,o,b,b,
+    b,o,o,o,o,o,o,b,
     o,o,b,o,o,b,o,o,
     o,o,o,o,o,o,o,o,
-    w,o,o,b,b,o,o,w,
-    w,w,o,o,o,o,w,w,
-    w,w,w,o,o,w,w,w,
+    b,o,o,b,b,o,o,b,
+    b,b,o,o,o,o,b,b,
+    b,b,o,o,o,o,b,b,
 ]
+
 
 while True:
     print(sense.humidity)
