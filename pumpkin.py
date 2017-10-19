@@ -2,7 +2,8 @@ from sense_hat import SenseHat
 from time import sleep
 
 sense = SenseHat()
-start_humidity = sense.humidity
+sense = clear
+start_temp = sense.temperature
 
 o = (255, 165, 0)
 r = (255, 0, 0)
@@ -34,10 +35,10 @@ nolight = [
 
 
 while True:
-    print(sense.humidity)
-    if sense.humidity > start_humidity + 10:
+    print(sense.temperature)
+    if sense.temperature > start_temp + 10:
         sense.set_pixels(nolight)
-    elif sense.humidity > start_humidity + 5:
+    elif sense.temperature > start_temp + 5:
         sense.set_pixels(nolight)
     else:
         sense.set_pixels(light)
