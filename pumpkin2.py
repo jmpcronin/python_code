@@ -2,7 +2,6 @@ from sense_hat import SenseHat
 from time import sleep
 
 sense = SenseHat()
-sense = clear
 start_temp = sense.temperature
 
 o = (255, 165, 0)
