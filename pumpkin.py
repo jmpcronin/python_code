@@ -16,8 +16,8 @@ light = [
     b,o,o,o,o,o,o,b,
     o,o,r,o,o,r,o,o,
     o,o,o,o,o,o,o,o,
+    o,o,r,r,r,r,o,o,
     b,o,o,r,r,o,o,b,
-    b,b,o,o,o,o,b,b,
     b,b,o,o,o,o,b,b,
 ]
 
@@ -27,8 +27,8 @@ nolight = [
     b,o,o,o,o,o,o,b,
     o,o,b,o,o,b,o,o,
     o,o,o,o,o,o,o,o,
+    o,o,b,b,b,b,o,o,
     b,o,o,b,b,o,o,b,
-    b,b,o,o,o,o,b,b,
     b,b,o,o,o,o,b,b,
 ]
 
