@@ -18,8 +18,7 @@ GPIO.setup(pin, GPIO.IN)
 world = World()
 # Say greeting
 world.say('bombs away')
-# Reset player's position to 0,0,0
-world.player.pos = Vector(0,0,0)
+
 
 # Initialise is button pressed
 button_pressed_already = False
