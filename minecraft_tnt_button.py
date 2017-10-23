@@ -5,6 +5,8 @@ from mcpi.minecraft import Minecraft
 from picraft import World
 from picraft import Vector
 
+
+mc = Minecraft.create()
 # GPIO04
 pin = 4
 # Mode BCM eg. GPIO04 = 4
