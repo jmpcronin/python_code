@@ -2,9 +2,9 @@
 
 ## Functions vs Methods
 
-method is called on an object (like a turtle), method can use data in object. Methods can call on object and give it instructions. Methods can be used to set attributes of an object.
+Method is called on an object (like a turtle), method can use data in object. Methods are the ways in which we interact with an object. For example, we used an on() method to light up an LED. Methods call on object and give it instructions. Methods can be used to set attributes of an object.
 
-function is a name for set instructions, it can pass info back and forth when called
+Function is a name for set instructions, it can pass info back and forth when called
 
 ```
 def tell(intro, punchline):
@@ -34,7 +34,7 @@ Quizzes do not count towards your course score, they are just to help you learn
 You may take as many attempts as you wish to answer each question
 You can skip questions and come back to them later if you wish
 
-Attribute – a named piece of data stored within an object
+Attribute – a named piece of data stored within an object. Attributes are the pieces of information stored within an object, just like a collection of variables
 
 Class – a blueprint for making an object
 
@@ -46,4 +46,4 @@ Object – groups together data and functions to model something in code. Exampl
 
 Object-oriented programming – a different style of programming
 
-Setter – a method whose purpose it is to set a value within an objec
+Setter – a method whose purpose it is to set a value within an object
