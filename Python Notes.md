@@ -1,4 +1,4 @@
-#OOP in Python Class
+# OOP in Python Class
 
 ## Functions vs Methods
 
@@ -18,7 +18,7 @@ def tell(intro, punchline):
 
 tell("Atch", "Sounds like you’ve got a cold!")
 ```
-##Class
+## Class
 The blueprint we create for an object is called a class.
 Class is like a template for objects (cookie cutter, make multiple cookies)
 Each instance of the object can change based by changing the attributes
